@@ -4,7 +4,7 @@ import {encodeGetParams} from '../helpers/misc.helpers';
 //create api call
 class BooksApi {
      URL = 'https://www.googleapis.com/books/v1/volumes';
-     APIKEY = 'AIzaSyBJYy5-SBnX5meFC9Sf6Wcy7ucrTHusu-4';
+     APIKEY = 'AIzaSyCib_OiZRJMJiDEmZgjibE1cLWy3IHuETE';
 
      async searchBooks(title, index) {
      	if (!title) {
