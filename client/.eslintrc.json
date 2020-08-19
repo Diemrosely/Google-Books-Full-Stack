@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:react/recommended"
+    ],
+    "parser":"babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-invalid-this": 0,
+        "react/prop-types": 0,
+        "require-jsdoc": 0,
+        "no-tabs": 0,
+        "no-mixed-spaces-and-tabs": 0,
+        "indent": [2, "tab"],
+        "max-len": [2, { "code": 150, "ignoreUrls": true }]
+    }
+}

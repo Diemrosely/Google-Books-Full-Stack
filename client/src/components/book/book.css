@@ -1,0 +1,16 @@
+.book-label-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.corner-heart {
+    right: 0px;
+    top: 0px;
+    color: red;
+}
+
+.corner-binoculars {
+    top: 0px;
+    color: lightseagreen;
+    right: 40px;
+}

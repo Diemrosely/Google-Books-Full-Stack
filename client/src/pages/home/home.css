@@ -1,0 +1,18 @@
+.AppHome-search {
+    background-color: transparent !important;
+}
+
+.error-message {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fetching-books {
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.no-books {
+    margin-top: 10px;
+    font-size: 32px;
+}
