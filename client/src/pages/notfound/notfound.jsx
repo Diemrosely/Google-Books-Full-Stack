@@ -1,6 +1,7 @@
 import React from "react";
 import "./notfound.css";
 
+//error if page not found
 export default function NotFound() {
 	return (
 		<div className="NotFound">
