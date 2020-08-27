@@ -4,7 +4,7 @@ const routes = require('./routes/routes');
 //third party library that handles input for server. 
 const bodyParser = require("body-parser");
 const path = require('path');
-const port = 3001;
+const port = process.env.PORT || 3001;
 const app = express();
 
 //allow both json and urlencoded to be sent to the server
