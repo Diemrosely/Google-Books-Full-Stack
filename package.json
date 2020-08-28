@@ -9,9 +9,7 @@
     "client": "npm start --prefix client",
     "start": "node index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm run build", 
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
